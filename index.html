@@ -20,6 +20,7 @@
       <p>Abra o biscoito e descubra!</p>
       <button id="closedCookieBtn">
         <img
+          id="closedCookie"
           src="./assets/closed_cookie.svg"
           alt="Imagem de um biscoito chinês fechado com papelzinho da sorte saindo de dentro."
         >
@@ -28,14 +29,18 @@
 
     <div class="openedCookieScreen hide">
       <h1>Aqui está a sua sorte de hoje:</h1>
-      <div class="fortuneMessage">
-        <p>Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.</p>
+      <div class="fortuneMessageWrapper">
+        <p id="fortuneMessage">Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.</p>
       </div>
 
-      <img src="./assets/opened_cookie.svg" alt="Imagem de um biscoito chinês aberto pela metade com migalhas.">
-      <button>Abrir outro biscoito</button>
+      <img
+        src="./assets/opened_cookie.svg"
+        alt="Imagem de um biscoito chinês aberto pela metade com migalhas."
+      >
+      <button id="tryAgainBtn">Abrir outro biscoito</button>
     </div>
 
   </main>
+  <script src="./main.js"></script>
 </body>
 </html>
